@@ -12,6 +12,7 @@ import { Character } from '../../interfaces/character.interface';
 export class AddCharacterComponent {
 
   public character: Character = {
+    id: '',
     name: '',
     power: 0
   };
@@ -26,7 +27,7 @@ export class AddCharacterComponent {
     console.log(this.character);
     this.onNewCharacter.emit(this.character);
 
-    this.character = { name: '', power: 0 };
+    this.character = { id: '', name: '', power: 0 };
 
   }
 }
