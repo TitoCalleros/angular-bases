@@ -43,6 +43,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "https://titocalleros.github.io/angular-bases/",
               "budgets": [
                 {
                   "type": "initial",
